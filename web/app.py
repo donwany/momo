@@ -22,12 +22,12 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = "MobileMoney"
 #app.config["MONGO_URI"] = "mongodb://localhost:27017/MobileMoneyDB"
-#app.config["MONGO_URI"] = "mongodb+srv://mobilemoney:Abc12345@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority"
+#app.config["MONGO_URI"] = "mongodb+srv://mobilemoney2:Abc123456@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority"
 
 #mongo = PyMongo(app)
 api = Api(app)
 
-client = MongoClient("mongodb+srv://mobilemoney:Abc12345@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://mobilemoney2:Abc123456@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority")
 mongo = client.MobileMoneyDB
 #users = db["Users"]
 
