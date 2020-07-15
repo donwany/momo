@@ -69,11 +69,11 @@ mail  = Mail(app)
 
 
 #######################################################################################################################
-# client = MongoClient("mongodb+srv://mobilemoney:Abc12345@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority")
+# client = MongoClient("mongodb+srv://mobilemoney2:Abc123456@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority")
 # mongo = client.MobileMoneyDB
 # users = db["Users"]
 
-# mongo = pymongo.MongoClient('mongodb+srv://mobilemoney:Abc12345@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority', maxPoolSize=50, connect=False)
+# mongo = pymongo.MongoClient('mongodb+srv://mobilemoney2:Abc123456@mobilemoney-q3w48.mongodb.net/MobileMoneyDB?retryWrites=true&w=majority', maxPoolSize=50, connect=False)
 # db = pymongo.database.Database(mongo, 'mydatabase')
 # col = pymongo.collection.Collection(db, 'mycollection')
 # col_results = json.loads(dumps(col.find().limit(5).sort("time", -1)))
